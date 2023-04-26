@@ -1,0 +1,28 @@
+MILESTONE:
+
+    -- Creare layout generale e componenti: Header, Main, Footer 
+    -- Creare tutte le sezioni nel main e popolare dinamicamente l'Header
+    -- Realizzare in dettaglio Jumbotron e sezione 2
+    -- Realizzare in dettaglio sezione 3 4 e Footer
+    -- Realizzare dettagli stilistici
+
+
+colors:
+
+    bg-colors: 
+        white: #FFFFFF
+        dirty-white: #EEEEEE
+        blue: #528FF0
+        dull-red: #D74D5    
+        light-dull-red: #D74D52CF
+        oil: #23374B
+        dark-brown: #333333
+        dark-oil: #192735
+        grey: #00000080
+        light-grey: #00000060
+    
+    txt-colors:
+        green: #3ADC79
+        moderno: #A3B5CA
+        orange: #F28202
+        red: #FF3A2D
