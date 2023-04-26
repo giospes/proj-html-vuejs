@@ -1,9 +1,9 @@
 <template>
-    <header>
+    <header class="position-fixed">
         <div class="wrapper h-100 d-flex justify-content-between">
-            <img id="logo" src="../assets/img/Logo.jpg" alt="logo" >
+            <img id="logo" src="../assets/img/Logo.jpg" alt="logo" class="d-none d-sm-block">
             <ul class="d-flex align-items-center justify-content-end gap-4 h-100">
-                <li v-for="section in store.sections"><a :href="'#' + section" class="fw-bold">{{ section }}</a></li>
+                <li v-for="(section, index) in store.sections" :key="index"><a :href="'#' + section" class="fw-bold">{{ section }}</a></li>
             </ul>   
         </div>
     </header>
@@ -23,10 +23,12 @@
 <style lang="scss" scoped>
     header{
         height: 60px;
-        font-size: .85rem;
+        font-size: .80rem;
+        z-index: 100;
+        background-color: white;
 
         #logo{  
-            height: 90px
+            height: 80px
         }
     }
 
