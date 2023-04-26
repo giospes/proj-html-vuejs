@@ -1,9 +1,11 @@
 <template>
     <main>
-        <section id="Home">
-            <div class="title">
-                <h1 class="pb-5">Professional Development For Coaches And Leaders</h1>
-                <button><a href="">Learn More</a></button>
+        <section id="Home" >
+            <div id="jumbo" >
+                <div class="title">
+                    <h1 class="pb-5">Professional Development For Coaches And Leaders</h1>
+                    <button><a href="">Learn More</a></button>
+                </div>
             </div>
         </section>
 
@@ -27,12 +29,13 @@
         background-color: black;
 
         #Home{
-            position: relative;
-            height: 800px;
-            background-image: url(../assets/img/jumbotron_1.PNG);
-            background-size: cover;
-            background-position: 50% 50%;
-            div.title{
+            #jumbo{
+                height: 800px;
+                position: relative;
+                background-image: url(../assets/img/jumbotron_1.PNG);
+                background-size: cover;
+                background-position: 50% 50%;
+                div.title{
                 position: absolute;
                 top: 45%;
                 left: 50%;
@@ -48,6 +51,8 @@
                 }
                 
             }
+            }
+            
         }
     }
 </style>
