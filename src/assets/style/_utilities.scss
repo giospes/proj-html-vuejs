@@ -1,7 +1,18 @@
 
 .wrapper {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 1rem
   }
+
+.text-highlight{
+  color: $red;
+  font-weight: 800;
+}
+
+.slider-btn{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
