@@ -63,6 +63,20 @@ export const store = {
             price: '32.00'
         },
     ],
+    BlogCards:[ 
+        {
+           title: 'Google Analytics Certification: Earn More',
+           img: './img/news-1-2.jpg',
+        },
+        {
+            title: 'Digital Marketing Masterclass  23 Courses',
+            img: './img/news-2-2.jpg',
+        },
+        {
+            title: 'CompTIA Network+ Cert. (N10-007)',
+            img: './img/news-3-2.jpg',
+        },
+    ],
 
 
 }

@@ -4,6 +4,7 @@
         <AboutComponent/>
         <CoursesComponent></CoursesComponent>
         <EventsComponent/>
+        <NewsComponent></NewsComponent>
     </main>
 </template>
 
@@ -13,13 +14,15 @@
     import AboutComponent from './AboutComponent.vue';
     import CoursesComponent from './CoursesComponent.vue';
     import EventsComponent from './EventsComponent.vue';
+import NewsComponent from './NewsComponent.vue';
     export default {
         components:{
-    JumboComponent,
-    AboutComponent,
-    CoursesComponent,
-    EventsComponent
-},
+            JumboComponent,
+            AboutComponent,
+            CoursesComponent,
+            EventsComponent,
+            NewsComponent
+        },
         data(){
             return{
                 store,
