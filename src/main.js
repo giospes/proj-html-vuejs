@@ -5,10 +5,10 @@ import './assets/style/main.scss'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faArrowRight, faArrowLeft, faLaptopCode, faClipboardCheck, faIdCard   } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, faArrowLeft, faLaptopCode, faClipboardCheck, faIdCard, faMap, faCompass } from '@fortawesome/free-solid-svg-icons'
 
 
-library.add(faArrowLeft, faArrowRight, faLaptopCode, faClipboardCheck, faIdCard)
+library.add(faArrowLeft, faArrowRight, faLaptopCode, faClipboardCheck, faIdCard, faMap, faCompass)
 
 createApp(App)
 .component('fa', FontAwesomeIcon)

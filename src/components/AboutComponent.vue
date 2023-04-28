@@ -1,5 +1,5 @@
 <template>
-    <section id="About Us" class="wrapper">
+    <section id="About Us" class="wrapper pb-5">
         <h2 class="text-center fw-bold">Since 2000, we've been partnering with education leaders to <span class="text-highlight">increase equity and achievement</span> for all students.</h2>
         <div class="card-container d-flex justify-content-between mb-4">
             <div class="gs-card" v-for="card in store.AboutCards">

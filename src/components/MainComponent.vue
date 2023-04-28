@@ -3,6 +3,7 @@
         <JumboComponent/>
         <AboutComponent/>
         <CoursesComponent></CoursesComponent>
+        <EventsComponent/>
     </main>
 </template>
 
@@ -11,11 +12,13 @@
     import JumboComponent from './JumboComponent.vue';
     import AboutComponent from './AboutComponent.vue';
     import CoursesComponent from './CoursesComponent.vue';
+    import EventsComponent from './EventsComponent.vue';
     export default {
         components:{
     JumboComponent,
     AboutComponent,
-    CoursesComponent
+    CoursesComponent,
+    EventsComponent
 },
         data(){
             return{

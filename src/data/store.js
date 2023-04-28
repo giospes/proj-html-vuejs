@@ -43,6 +43,26 @@ export const store = {
             color: '#39e17b',
          }
     ],
+    CoursesCards:[ 
+        {
+           title: 'Google Analytics Certification: Earn More',
+           text: 'Become Google Analytics Certified to Land a Job, Get Promoted, or Start a New Career...',
+           img: './img/12786.jpg',
+           price: '150.00'
+        },
+        {
+            title: 'Digital Marketing Masterclass  23 Courses',
+            text: 'Grow Your Business with Digital Marketing: Social Media Marketing, Facebook, Content, YouTube, Email Marketing, Websites',
+            img: './img/7787.jpg',
+            price: '55.00'
+        },
+        {
+            title: 'CompTIA Network+ Cert. (N10-007)',
+            text: 'CompTIA Network+ (N10-007) Bootcamp - Certification preparation course on the most popular networking certification!',
+            img: './img/6498.jpg',
+            price: '32.00'
+        },
+    ],
 
 
 }
