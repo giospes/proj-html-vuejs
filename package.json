@@ -14,7 +14,9 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "bootstrap": "^5.2.3",
-    "vue": "^3.2.47"
+    "gitart-scroll-carousel": "^1.2.4",
+    "vue": "^3.2.47",
+    "vueperslides": "^3.5.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",

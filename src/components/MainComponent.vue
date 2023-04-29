@@ -5,6 +5,7 @@
         <CoursesComponent></CoursesComponent>
         <EventsComponent/>
         <NewsComponent></NewsComponent>
+        <GalleriaComponent></GalleriaComponent>
     </main>
 </template>
 
@@ -14,6 +15,7 @@
     import AboutComponent from './AboutComponent.vue';
     import CoursesComponent from './CoursesComponent.vue';
     import EventsComponent from './EventsComponent.vue';
+    import GalleriaComponent from './GalleriaComponent.vue'
 import NewsComponent from './NewsComponent.vue';
     export default {
         components:{
@@ -21,7 +23,8 @@ import NewsComponent from './NewsComponent.vue';
             AboutComponent,
             CoursesComponent,
             EventsComponent,
-            NewsComponent
+            NewsComponent,
+            GalleriaComponent
         },
         data(){
             return{
