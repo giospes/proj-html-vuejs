@@ -15,10 +15,6 @@
           './img/gallery-1-3.jpg',
           './img/gallery-2-3.jpg',
           './img/gallery-3-3.jpg',
-          './img/gallery-3-3.jpg',
-          './img/gallery-3-3.jpg',
-          './img/gallery-3-3.jpg',
-          './img/gallery-3-3.jpg',
         ],
         intervalId: null
       }

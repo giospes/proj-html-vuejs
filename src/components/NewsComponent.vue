@@ -4,7 +4,7 @@
             <h2 class="text-center mb-5">Latest From Our Blogs</h2>
             <p class="text-center mb-5">Whether you re considering a foundation card or an undergraduate degree master's or a PhD, academics is a place where students thrive.</p>
         </div>
-        <div class="card-container d-flex gap-5">
+        <div class="card-container d-flex flex-column flex-md-row align-items-center justify-content-center gap-5">
             <div class="gs-card" v-for="card in store.BlogCards">
                 <div class="card-header">
                     <img :src="card.img" class="w-100" alt="">
@@ -38,7 +38,7 @@
         margin-top: 7rem;
     }
     .title-container{
-        width: 800px;
+        max-width: 800px;
         margin: 0 auto;
     }
     .gs-card{
@@ -64,6 +64,12 @@
             }
         }
         
+    }
+        
+    @media screen and (max-width: 568px) {
+        .gs-card{
+            width: 100%;
+        }
     }
 
 </style>

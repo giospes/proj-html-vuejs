@@ -18,11 +18,11 @@
                 jumbo: [
                     {
                         title : 'Professional Development For Coaches And Leaders',
-                        background: './img/jumbotron_1.png'
+                        background: './img/02_Landing-Page.jpg'
                     },
                     {
                         title : 'Experience The Next Level Of Coaching Education',
-                        background: './img/jumbotron_2.png'
+                        background: './img/Images-2.jpg'
                     }
                 ], 
                 current: 0,

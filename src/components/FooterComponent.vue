@@ -1,10 +1,10 @@
 <template>
     <footer class="pt-5">
-        <div class="up">
+        <div class="up wrapper">
             <h4>Subscribe to our newsletter</h4>
             <input class="w-100" type="email">
         </div>
-        <div class="down py-5 d-flex justify-content-center gap-5">
+        <div class="d-flex flex-column flex-md-row down py-5 d-flex align-items-center justify-content-center gap-5">
             <div class="p-3">
                 <h2>Explore</h2>
                 <ul>
@@ -66,7 +66,8 @@
     }
     .up{
         text-align: center;
-        width: 600px;
+        max-width: 600px;
+        width: 100%;
         margin: 0 auto;
     }
 </style>

@@ -1,8 +1,8 @@
 <template>
     <p class="wrapper text-center fs-3 pb-5">"Academics was committed to my success from the moment I attended an Open House. With the support of caring <span class="fw-bold"> advisors, professors, and staff </span> i was able to thrive in courses, gain recognition through scholarships, and finish with <span class="fw-bold"> confidence in my @academics abilities.</span> "</p>
-    <section id="Events" class="wrapper position-relative mt-5 pb-5">
+    <section id="Events" class="d-flex flex-column flex-lg-row wrapper position-relative mt-5 pb-5">
         <div class="img-container">
-            <img src="../../public/img/video-bg-3.jpg">
+            <img class="w-100" src="../../public/img/video-bg-3.jpg">
         </div>
         <div class="info-container p-5">
             <h3 class="mb-5">Upcoming Events</h3>
@@ -36,11 +36,19 @@
 </script>
 
 <style lang="scss" scoped>
+    section{
+        align-items: center;
+        justify-content: center;
+    }
+    .img-container{
+        width: 100%;
+        max-width: 650px;
+    }
     .info-container{
-        width: 700px;
+        max-width: 650px;
+        width: 100%;
         background-color: white;
         box-shadow: 0px 0px 5px rgb(173, 173, 173);
-        position: absolute;
         top: 10%;
         left: 50%;
         h3{
@@ -54,6 +62,16 @@
         }
         .icon-side{
             width: 110px
+        }
+    }
+
+    @media  screen and (min-width: 992px) {
+
+        section{
+            justify-content: flex-start;
+        }
+        .info-container{
+            position: absolute;
         }
     }
 </style>
